@@ -13,6 +13,7 @@ class DemoApplicationTests {
         PasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
         String encodePassword = passwordEncoder.encode("123456");
         System.out.println(encodePassword);
+        System.out.println(“测试01);
     }
 
 }
